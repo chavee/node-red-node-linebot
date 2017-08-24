@@ -1,0 +1,30 @@
+{
+  "name": "node-red-node-linebot",
+  "version": "0.5.0",
+  "description": "A Node-RED node to connect to Line Bot API",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavee/node-red-node-linebot.git"
+  },
+  "keywords": [
+    "node-red",
+    "line"
+  ],
+  "author": "Chavee Issariyapat <chavee@netpie.io> (https://netpie.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chavee/node-red-node-linebot/issues"
+  },
+  "homepage": "https://github.com/chavee/node-red-node-linebot#readme",
+  "dependencies": {
+    "restler": "^3.4.0"
+  },
+  "node-red": {
+    "nodes": {
+        "line"    : "line-push.js"
+    }
+  }
+}
